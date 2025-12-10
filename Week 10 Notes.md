@@ -266,6 +266,8 @@ The blue in the bottom of the picture is the basic layout of the bash shell prom
 ```
 # can see the format of PS1 using
 echo PS1
+# the above will return
+\u@\h:\w\s
 
 # can chande using 
 PS1="..."
@@ -284,7 +286,7 @@ set -x
 
 # L10.5 - Managing Storage
 ## LVM
-* Logical Volume Managemnet
+* Logical Volume Management
 * pooling multiple storage devices as a single logical volume
 * lvm2 tools: create and manage virtual block devices from physical devices
 
